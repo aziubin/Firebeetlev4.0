@@ -17,7 +17,7 @@ print('H: ', esp32.hall_sensor())
 #sprint(nvs_getint('myvar'))
 
 rtc = RTC()
-rtc.datetime((2021, 11, 6, 7, 14, 54, 32, 36))
+#rtc.datetime((2021, 11, 6, 7, 14, 54, 32, 36))
 
 print(rtc.memory());
 rtcCnt=int.from_bytes(rtc.memory(), 'big');
