@@ -8,9 +8,9 @@ from machine import RTC
 #from machine import nvs_getint
 import time
 import esp32
-while(1):
- #print('T: ', (esp32.raw_temperature() - 32)*5/9)
- print('H: ', esp32.hall_sensor())
+#while(1):
+print('T: ', (esp32.raw_temperature() - 32)*5/9)
+print('H: ', esp32.hall_sensor())
 
 #nvs_setint('myvar', 12345678)
 #sprint(nvs_getint('myvar'))
