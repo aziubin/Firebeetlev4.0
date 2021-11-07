@@ -1,0 +1,24 @@
+
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0x00
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0008,len:8
+load:0x3fff0010,len:1760
+load:0x40078000,len:6668
+load:0x40080000,len:252
+entry 0x40080034
+ESP32 SDK: v2.0-rc1-803-g1e0710f1
+BTDM CONTROLLER VERSION: 010101
+btip start
+copy .data from 4000d890 to 3ffae6e0, len 00001830
+set .bss 0x0 from 3ffb8000 to 3ffbff70, len 00007f70
+BTDM ROM VERSION 0101
+BD_ADDR: 94:3C:C6:05:04:A6
+NVDS MAGIC FAILED
+RF Init OK with coex
+Enable Classic BT
+Enable Low Energy
+Press the button to change the device name

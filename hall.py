@@ -5,6 +5,6 @@ hall = esp32.hall_sensor
 while(1):
  #print('T: ', (t() - 32)*5/9)
  print('H: ', hall())
- sleep(1)
+ sleep(0.1)
  
  
